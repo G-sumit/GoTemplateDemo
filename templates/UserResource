@@ -1,0 +1,5 @@
+{{if deviceEnabled "feature-a"}}
+{"Material":"{{.Inventory.Material}}","Count":{{.Inventory.Count}},"Name":"{{.Name}}","Id":{{.GetId .Id}}}
+{{else}}
+{"Material":"{{.Inventory.Material}}","Count":{{.Inventory.Count}},"Name":"{{.Name}}","Id":{{.Id}}}
+{{end}}

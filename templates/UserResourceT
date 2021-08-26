@@ -1,0 +1,110 @@
+{{if deviceEnabled "feature-a"}}
+{
+  "Name": "{{.Name}}",
+  "Id": {{.Id}},
+  "Surname": "{{.Surname}}",
+  "Contact": "{{.Contact}}",
+  "SecondName": "{{.SecondName}}",
+  "SecondId": {{.SecondId}},
+  "SecondSurname": "{{.SecondSurname}}",
+  "SecondContact": "{{.SecondContact}}",
+  "TName": "{{.TName}}",
+  "TSurname": "{{.TSurname}}",
+  "TContact": "{{.TContact}}",
+
+
+  "SecName": "{{.First.Name}}",
+  "SecId": {{.First.Id}},
+  "SecSurname": "{{.First.Surname}}",
+  "SecContact": "{{.First.Contact}}",
+  "SecSecondName": "{{.First.SecondName}}",
+  "SecSecondId": {{.First.SecondId}},
+  "SecSecondSurname": "{{.First.SecondSurname}}",
+  "SecSecondContact": "{{.First.SecondContact}}",
+  "SecTName": "{{.First.TName}}",
+  "SecTSurname": "{{.First.TSurname}}",
+  "SecTContact": "{{.First.TContact}}",
+
+
+  "ThName": "{{.First.Second.Name}}",
+  "ThId": {{.First.Second.Id}},
+  "ThSurname": "{{.First.Second.Surname}}",
+  "ThContact": "{{.First.Second.Contact}}",
+  "ThSecondName": "{{.First.Second.SecondName}}",
+  "ThSecondId": {{.First.Second.SecondId}},
+  "ThSecondSurname": "{{.First.Second.SecondSurname}}",
+  "ThSecondContact": "{{.First.Second.SecondContact}}",
+  "ThTName": "{{.First.Second.TName}}",
+  "ThTSurname": "{{.First.Second.TSurname}}",
+  "ThTContact": "{{.First.Second.TContact}}",
+
+
+  "FoName": "{{.First.Second.Third.Name}}",
+  "FoId": {{.First.Second.Third.Id}},
+  "FoSurname": "{{.First.Second.Third.Surname}}",
+  "FoContact": "{{.First.Second.Third.Contact}}",
+  "FoSecondName": "{{.First.Second.Third.SecondName}}",
+  "FoSecondId": {{.First.Second.Third.SecondId}},
+  "FoSecondSurname": "{{.First.Second.Third.SecondSurname}}",
+  "FoSecondContact": "{{.First.Second.Third.SecondContact}}",
+  "FoTName": "{{.First.Second.Third.TName}}",
+  "FoTSurname": "{{.First.Second.Third.TSurname}}",
+  "FoTContact": "{{.First.Second.Third.TContact}}"
+}
+
+
+
+{{else}}
+{
+  "Name": "{{.Name}}",
+  "Id": {{.Id}},
+  "Surname": "{{.Surname}}",
+  "Contact": "{{.Contact}}",
+  "SecondName": "{{.SecondName}}",
+  "SecondId": {{.SecondId}},
+  "SecondSurname": "{{.SecondSurname}}",
+  "SecondContact": "{{.SecondContact}}",
+  "TName": "{{.TName}}",
+  "TSurname": "{{.TSurname}}",
+  "TContact": "{{.TContact}}",
+
+
+  "SecName": "{{.First.Name}}",
+  "SecId": {{.First.Id}},
+  "SecSurname": "{{.First.Surname}}",
+  "SecContact": "{{.First.Contact}}",
+  "SecSecondName": "{{.First.SecondName}}",
+  "SecSecondId": {{.First.SecondId}},
+  "SecSecondSurname": "{{.First.SecondSurname}}",
+  "SecSecondContact": "{{.First.SecondContact}}",
+  "SecTName": "{{.First.TName}}",
+  "SecTSurname": "{{.First.TSurname}}",
+  "SecTContact": "{{.First.TContact}}",
+
+
+  "ThName": "{{.First.Second.Name}}",
+  "ThId": {{.First.Second.Id}},
+  "ThSurname": "{{.First.Second.Surname}}",
+  "ThContact": "{{.First.Second.Contact}}",
+  "ThSecondName": "{{.First.Second.SecondName}}",
+  "ThSecondId": {{.First.Second.SecondId}},
+  "ThSecondSurname": "{{.First.Second.SecondSurname}}",
+  "ThSecondContact": "{{.First.Second.SecondContact}}",
+  "ThTName": "{{.First.Second.TName}}",
+  "ThTSurname": "{{.First.Second.TSurname}}",
+  "ThTContact": "{{.First.Second.TContact}}",
+
+
+  "FoName": "{{.First.Second.Third.Name}}",
+  "FoId": {{.First.Second.Third.Id}},
+  "FoSurname": "{{.First.Second.Third.Surname}}",
+  "FoContact": "{{.First.Second.Third.Contact}}",
+  "FoSecondName": "{{.First.Second.Third.SecondName}}",
+  "FoSecondId": {{.First.Second.Third.SecondId}},
+  "FoSecondSurname": "{{.First.Second.Third.SecondSurname}}",
+  "FoSecondContact": "{{.First.Second.Third.SecondContact}}",
+  "FoTName": "{{.First.Second.Third.TName}}",
+  "FoTSurname": "{{.First.Second.Third.TSurname}}",
+  "FoTContact": "{{.First.Second.Third.TContact}}"
+}
+{{end}}
